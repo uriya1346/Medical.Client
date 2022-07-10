@@ -1,0 +1,28 @@
+.cart{
+  position: fixed;
+  width:100%;
+  max-width: 400px;
+  height: 50vh;
+  background: linear-gradient(100deg,#f8f8f8,#7c7c7c,#000000);
+  background-size: 320% 320%;
+  animation: gradient-animation 1s ease infinite;
+  border:1px solid silver;
+  right:2%;
+  top:65px;
+  z-index: 9999;
+  overflow-y: scroll; 
+}
+
+.cart .close-btn{
+  top:10px;
+  right:10px;
+  position: absolute;
+}
+
+@media (max-width: 768px){
+  .cart{
+    right: 0;;
+    top:186px;
+    max-width:200px;
+  }
+}

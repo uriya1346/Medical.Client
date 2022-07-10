@@ -1,0 +1,46 @@
+.header-client{
+  min-height: 60px;
+  background:rgb(238, 227, 227);
+  position: relative;
+  z-index: 999;
+}
+header.sticky{
+  background: linear-gradient(90deg, #fff3f3 0%, rgb(160, 159, 159) 100%);
+}
+
+.header-client .container , .header-client .row{
+  min-height: inherit;
+}
+
+.header-client .logo a{
+  color:grey;
+  text-decoration: none;
+}
+
+.header-client nav  a{
+  color:rgb(36, 36, 36);
+  padding:0 12px;
+  text-decoration: none;
+}
+
+
+.header-client nav  a:hover{
+  color:purple;
+  text-decoration: underline;
+}
+
+.header-client nav .search_header .btn{
+  padding-bottom: 10px;
+}
+
+.footer-client{
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+}
+
+@media (max-width: 1200px){
+  header .logo{
+   margin-right:0px ;
+  }
+}

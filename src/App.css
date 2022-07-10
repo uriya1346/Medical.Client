@@ -1,0 +1,20 @@
+body{
+    background: silver;
+    font-family: sans-serif;
+}
+.btnLog{
+    background: no-repeat;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    width: 25%;
+    padding: 7px 15px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-family: 'Bonheur Royale', cursive;
+  }
+  .btnLog:hover{
+    background: white;
+    color: rgb(0, 0, 0);
+  }
