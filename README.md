@@ -2,7 +2,7 @@
 
 This is an online shopping platform, "Online Medical Shop," developed using React, Node.js, Express, and MongoDB. The application aims to provide a seamless shopping experience for medical supplies.
 
-![](app-screenshot.png)
+![](https://github.com/uriya1346/Medical.Client/blob/main/medicalShop.png?raw=true)
 
 ## Features
 
@@ -43,5 +43,5 @@ Visit `localhost:3000` in your web browser to use the application.
 
 ## Contact
 
-If you have any questions, feel free to reach out to me at your-email@example.com.
+If you have any questions, feel free to reach out to me at uria1346@gmail.com.
 
